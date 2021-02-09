@@ -14,10 +14,10 @@
 
 > Thanos is a Dos Tool that will send a bunch of http-get request to a web server
 
-### 🏠 [Homepage](https://github.com/loTus04/Thanos/blob/main/README.md)
+### 🏠 [Homepage](https://github.com/loTus04/RATata/blob/main/README.md)
 
-### ✨ [Demo](https://github.com/loTus04/Thanos/blob/main/img/banner.PNG)
-<img src="https://github.com/loTus04/Thanos/blob/main/img/banner.PNG" width="536" height="355"/>
+### ✨ [Demo](https://github.com/loTus04/RATata/blob/main/img/rat_bannere.PNG)
+<img src="https://github.com/loTus04/RATata/blob/main/img/rat_bannere.PNG" width="536" height="355"/>
 
 ## Prerequisites
 
