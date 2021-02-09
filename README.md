@@ -12,7 +12,7 @@
   </a>
 </p>
 
-> Thanos is a Dos Tool that will send a bunch of http-get request to a web server
+> RATata is a simple python RAT to setup and use !
 
 ### 🏠 [Homepage](https://github.com/loTus04/RATata/blob/main/README.md)
 
