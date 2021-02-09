@@ -33,8 +33,8 @@ pip3 install -r requirements.txt
 ## INFORMATION
 
  ```
+RATata is a backdoor made in python. It works with a third-party API so you don't have to open ports of your wifi box
 
-RATata is a backdoor made in python. 
 Tools:
   - execute bash commands
   - download files
