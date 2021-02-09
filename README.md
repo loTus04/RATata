@@ -64,34 +64,7 @@ You must host this API on a free host site like 'heroku.com' or '000webhost.com'
 ```
 
 ## USAGE
- 
- ```
- RATata Commands
- ===============
-
-           Command       Description
-           -------       -----------
- [OPTIONS]
-          help          Help menu
-          banner        Display the RATata banner
-          version       Display the curent RATata version
-          version info  Display information on each version
-          clear         Clear the console
-          exit          Exit the console
-          stop          Go back to main menu
-
- [ACTIONS]
-          kill          Exit every victims RAT
-          ping          Display the online victims
-          bash          Execute batch script on the victim's DOS        
-          dwl           Download & run a file
-          inject        Run a predefine python malwware on the victime  
-          userinfo      Display infomation over a victim
- 
- [DEBUG]
-          clean         Reset the API data
-          log           Opens API logs 
- ```
+<img src="https://github.com/loTus04/RATata/blob/main/img/rat_help.PNG"/>
  
 ## INJECT
 
