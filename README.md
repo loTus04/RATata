@@ -1,1 +1,78 @@
-# RATata
+<h1 align="center">Welcome to Thanos 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.1-blue.svg?cacheSeconds=2592000" />
+  <a href="https://github.com/kefranabg/readme-md-generator#readme" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="https://github.com/kefranabg/readme-md-generator/graphs/commit-activity" target="_blank">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+  </a>
+  <a href="https://github.com/loTus04/RATata/blob/main/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/github/license/loTus04/RATata" />
+  </a>
+</p>
+
+> Thanos is a Dos Tool that will send a bunch of http-get request to a web server
+
+### 🏠 [Homepage](https://github.com/loTus04/Thanos/blob/main/README.md)
+
+### ✨ [Demo](https://github.com/loTus04/Thanos/blob/main/img/banner.PNG)
+<img src="https://github.com/loTus04/Thanos/blob/main/img/banner.PNG" width="536" height="355"/>
+
+## Prerequisites
+
+- pip3
+- python3
+
+## Install
+
+```sh
+pip3 install -r requirements.txt
+```
+
+
+COMMAND
+ -------
+    python Thanos.py [url] [thread] [proxies]
+
+    url = https://website.com/bigfile.txt
+    thread = 1 - 1000
+    proxies = no/yes/scrap
+    scrap = scrap proxies and use them
+
+ USAGE
+ -----
+    This Dos Tool will send a bunch of http-get request to a web server
+    Usage:
+        Use the inspect element (Crt + Shift + i) on the website and find the heaviest file. It can have any extension (.txt, .png, .exe ...)
+        Use only http-type proxies without authorization
+        Do not put too much thread, because your wifi will also lag
+        If your using proxies, make shure to put them in http_proxies.txt in ./proxies
+
+ EXAMPLES
+ --------
+    root@root> python Thanos.py https://www.google.com/images/nav_logo299.webp 500 no
+    --> This will send requests to google.com and won't use proxies
+
+    root@root> python Thanos.py https://www.google.com/images/nav_logo299.webp 500 scrap
+    --> This will send requests to google.com and scrapt for http proxies online and use them
+## Author
+
+👤 **loTus01**
+
+* GitHub: [@loTus01](https://github.com/loTus04)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/loTus04/RATata/issues).
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+## 📝 License
+
+Copyright © 2021 [loTus01](https://github.com/loTus04).<br />
+This project is [MIT](https://github.com/kefranabg/readme-md-generator/blob/master/LICENSE) licensed.
+
+***
