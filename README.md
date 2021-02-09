@@ -33,13 +33,21 @@ pip3 install -r requirements.txt
 ## INFORMATION
 
  ```
-RIGHT HERE
+
+RATata is a backdoor made in python. 
+Tools:
+  - execute bash commands
+  - download files
+  - inject python scripts
+Characteristics:
+  - auto run on computer boot
+  - hash a score of 9/70 on virus total, but can easly put to 0 with a crypter
 ```
 
 ## SETUP API
  
  ```
-As you have seen, this RAT uses a third party API. The source code for this API can be found in .RATata/API.
+As you have seen, this RAT uses a third party API. The source code for this API can be found in ./RATata/API.
 You must host this API on a free host site like 'heroku.com' or '000webhost.com'.
 ```
 <img alt="API" src="https://github.com/loTus04/RATata/blob/main/img/api.PNG" width="536" height="180" />
