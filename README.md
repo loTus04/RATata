@@ -64,7 +64,7 @@ You must host this API on a free host site like 'heroku.com' or '000webhost.com'
 ```
 
 ## USAGE
-<img src="https://github.com/loTus04/RATata/blob/main/img/rat_help.PNG"/>
+<img src="https://github.com/loTus04/RATata/blob/main/img/rat_help.PNG" width="652" height="484"/>
  
 ## INJECT
 
