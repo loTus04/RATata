@@ -19,7 +19,7 @@
 ### ✨ [Demo](https://github.com/loTus04/RATata/blob/main/img/rat_bannere.PNG)
 <img src="https://github.com/loTus04/RATata/blob/main/img/rat_bannere.PNG"/>
 
-<img src="https://github.com/loTus04/RATata/blob/main/img/warning_rat.PNG"/>
+<img src="https://github.com/loTus04/RATata/blob/main/img/warning_rat.PNG" width="552" height="70"/>
 
 ## Prerequisites
 
