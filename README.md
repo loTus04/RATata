@@ -55,16 +55,27 @@ You must host this API on a free host site like 'heroku.com' or '000webhost.com'
  ## SETUP RAT
 
  ```
-RIGHT HERE
+1. Install Python3 and Pip3, then install all the modules in requirements.txt
+2. Host the api how ever you wan't
+3. Edit ./RAT/json/url.json with your own API links and webhook
+4. Edit ./RAT/CLIENT.py with your own API links
+5. [Optional] Put the the CLIENT.py in a crypter to bypass anti-virus
+6. [Optional] Send it to people !
 ```
 
- UAGE
- --------
+## USAGE
  
  ```
 RIGHT HERE
  ```
  
+## INJECT
+
+```
+
+
+```
+
 ## Author
 
 👤 **loTus01**
