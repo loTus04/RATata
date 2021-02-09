@@ -30,10 +30,9 @@
 pip3 install -r requirements.txt
 ```
 
-
 ## INFORMATION
 
- ```sh
+ ```
 RIGHT HERE
 ```
 
@@ -47,14 +46,14 @@ You must host this API on a free host site like 'heroku.com' or '000webhost.com'
 
  ## SETUP RAT
 
- ```sh
+ ```
 RIGHT HERE
 ```
 
  UAGE
  --------
  
- ```sh
+ ```
 RIGHT HERE
  ```
  
