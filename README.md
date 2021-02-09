@@ -19,6 +19,8 @@
 ### ✨ [Demo](https://github.com/loTus04/RATata/blob/main/img/rat_bannere.PNG)
 <img src="https://github.com/loTus04/RATata/blob/main/img/rat_bannere.PNG"/>
 
+<img src="https://github.com/loTus04/RATata/blob/main/img/warning_rat.PNG"/>
+
 ## Prerequisites
 
 - pip3
