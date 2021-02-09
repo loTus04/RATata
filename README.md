@@ -39,7 +39,7 @@ RIGHT HERE
 
 ## SETUP API
  
- ```sh
+ ```
 As you have seen, this RAT uses a third party API. The source code for this API can be found in .RATata/API.
 You must host this API on a free host site like 'heroku.com' or '000webhost.com'.
 ```
