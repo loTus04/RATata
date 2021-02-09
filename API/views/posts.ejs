@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <head>
+         <%- include ('partials/head.ejs'); -%>
+   </head>
+   </head>
+   <body>
+      <div class="container">
+        
+         <form action="/posts" method="GET">
+            <table class="table">
+               <tr>
+                  <td>
+                     <input type="text" name="filter" class="form-control" placeholder="Recherche..."  value="<%= filter ? filter : '' %>">
+                  </td>
+                  <td>
+                     <button type="submit" class="btn btn-info">Recherche</button>
+                  </td>
+               </tr>
+            </table>
+         </form>
+         <h1 class="text-center">Posts</h1>
+         <table class="table">
+            <thead>
+               <tr>
+                  <th scope="col">Titre</th>
+                  <th scope="col">Lien</th>
+               </tr>
+            </thead>
+            <tbody>
+               <% blog.forEach(d => { %>
+               <tr>
+                  <td><%= d.Title %></td>
+                  <td><a href="/posts/<%= d.ID %>" class="btn btn-info">Voir Plus</a>
+                  </td>
+               </tr>
+               <% }) %>
+            </tbody>
+         </table>
+      </div>
+      <footer>
+         <%- include ('partials/footer.ejs'); -%>
+      </footer>
+   </body>
+</html>

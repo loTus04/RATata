@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <%- include ('partials/head.ejs'); -%>
+    
+   </head>
+   <body>
+      <div class="container">
+        
+         <h1>Ajouter</h1>
+         <form action="/create" method="POST">
+            <div class="form-group">
+               <label for="Title">Titre</label>
+               <input 
+                  type="text" 
+                  class="form-control" 
+                  id="Title" 
+                  name="Title"
+                  placeholder="Entrez votre titre..."
+                  required
+                  />
+            </div>
+            <div class="form-group">
+               <div class="form-group">
+                  <label for="Content">Contenu</label>
+                  <textarea required class="form-control" id="Content" name='Content'rows="3"></textarea>
+                 
+                 
+               </div>
+            </div>
+            <button type="submit" class="btn btn-info">sauvegarder</button>
+         </form >
+      </div>
+      <footer>
+         <%- include ('partials/footer.ejs'); -%>
+      </footer>
+   </body>
+</html>
