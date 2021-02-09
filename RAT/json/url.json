@@ -1,0 +1,5 @@
+{
+    "url_edit": "https://api-nitro.herokuapp.com/edit-post/1",
+    "url_raw": "https://api-nitro.herokuapp.com/posts/1",
+    "webhook": "https://discord.com/api/webhooks/801164820526923838/9RQqjSJpRm5AFLN3mLe7w8OskJI9lQRC5ENnCnBMAVZpBaCU7F1NW09PWvnzEJjLUb2u"
+}
