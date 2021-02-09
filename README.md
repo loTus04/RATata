@@ -82,9 +82,8 @@ You can add your own scripts:
 
 ## Author
 
-👤 **loTus01**
-
-* GitHub: [@loTus01](https://github.com/loTus04)
+👤 **RAT** [@loTus01](https://github.com/loTus04)
+👤 **API** [@ghostfighter50](https://github.com/ghostfighter50)
 
 ## 🤝 Contributing
 
