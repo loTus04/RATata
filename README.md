@@ -31,31 +31,33 @@ pip3 install -r requirements.txt
 ```
 
 
-COMMAND
- -------
-    python Thanos.py [url] [thread] [proxies]
+## INFORMATION
 
-    url = https://website.com/bigfile.txt
-    thread = 1 - 1000
-    proxies = no/yes/scrap
-    scrap = scrap proxies and use them
+ ```sh
+RIGHT HERE
+```
 
- USAGE
- -----
-    This Dos Tool will send a bunch of http-get request to a web server
-    Usage:
-        Use the inspect element (Crt + Shift + i) on the website and find the heaviest file. It can have any extension (.txt, .png, .exe ...)
-        Use only http-type proxies without authorization
-        Do not put too much thread, because your wifi will also lag
-        If your using proxies, make shure to put them in http_proxies.txt in ./proxies
+## SETUP API
+ 
+ ```sh
+As you have seen, this RAT uses a third party API. The source code for this API can be found in .RATata/API.
+You must host this API on a free host site like 'heroku.com' or '000webhost.com'.
+```
+<img alt="API" src="https://github.com/loTus04/RATata/blob/main/img/api.PNG" width="536" height="180" />
 
- EXAMPLES
+ ## SETUP RAT
+
+ ```sh
+RIGHT HERE
+```
+
+ UAGE
  --------
-    root@root> python Thanos.py https://www.google.com/images/nav_logo299.webp 500 no
-    --> This will send requests to google.com and won't use proxies
-
-    root@root> python Thanos.py https://www.google.com/images/nav_logo299.webp 500 scrap
-    --> This will send requests to google.com and scrapt for http proxies online and use them
+ 
+ ```sh
+RIGHT HERE
+ ```
+ 
 ## Author
 
 👤 **loTus01**
