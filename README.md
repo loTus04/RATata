@@ -36,12 +36,12 @@ pip3 install -r requirements.txt
 
 RATata is a backdoor made in python. 
 Tools:
-  -execute bash commands
-  -download files
-  -inject python scripts
+  - execute bash commands
+  - download files
+  - inject python scripts
 Characteristics:
-  -auto run on computer boot
-  -hash a score of 9/70 on virus total, but can easly put to 0 with a crypter
+  - auto run on computer boot
+  - hash a score of 9/70 on virus total, but can easly put to 0 with a crypter
 ```
 
 ## SETUP API
