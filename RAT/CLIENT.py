@@ -88,7 +88,7 @@ while True:
 
 
         if "d0wNL04D" in data:
-            print("got a dwonload 1 ")
+            print("got a download 1 ")
             if my_IP in data:
                 print("GOT A DOWNLOAD")
 
