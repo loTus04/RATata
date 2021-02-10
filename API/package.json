@@ -1,10 +1,11 @@
 {
-  "name": "snt",
+  "name": "api-rat",
   "version": "1.2.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "build": "npm i && node server.js",
   },
   "keywords": [],
   "author": "",
