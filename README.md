@@ -23,7 +23,7 @@
 
 ## Prerequisites
 
-- pip3
+- pip3 
 - python3
 
 ## Install
