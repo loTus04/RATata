@@ -66,7 +66,7 @@ You must host this API on a free host site like 'heroku.com' or '000webhost.com'
 ```
 
 ## USAGE
-<img src="![image](https://user-images.githubusercontent.com/68511325/145680288-93691c7c-99b9-43aa-987f-6bd53112f96c.png)" width="652" height="484"/>
+<img src="https://media.discordapp.net/attachments/919204721024204820/919234723291738192/rat_help.png?width=910&height=676" width="652" height="484"/>
  
 ## INJECT
 
@@ -78,7 +78,7 @@ You can add your own scripts:
 3. Encrypt the script in base64
 4. Put it in ./RAT/json/virus.json
 ```
-<img src="![image](https://user-images.githubusercontent.com/68511325/145680313-6e3fa7a4-5a6e-4cbc-9434-b0a51aac30a1.png)" width="443" height="256"/>
+<img src="https://media.discordapp.net/attachments/919204721024204820/919234745701908530/rat_inject.png" width="443" height="256"/>
 
 ## Author
 
