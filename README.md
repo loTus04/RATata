@@ -16,10 +16,10 @@
 
 ### 🏠 [Homepage](https://github.com/loTus04/RATata/blob/main/README.md)
 
-### ✨ [Demo](https://github.com/loTus04/RATata/blob/main/img/rat_bannere.PNG)
-<img src="https://github.com/loTus04/RATata/blob/main/img/rat_bannere.PNG"/>
+### ✨ [Demo](https://media.discordapp.net/attachments/919204721024204820/919234700785090610/rat_bannere.png)
+<img src="https://media.discordapp.net/attachments/919204721024204820/919234700785090610/rat_bannere.png"/>
 
-<img src="https://github.com/loTus04/RATata/blob/main/img/warning_rat.PNG" width="552" height="70"/>
+<img src="https://media.discordapp.net/attachments/919204721024204820/919234772742570034/warning_rat.png" width="552" height="70"/>
 
 ## Prerequisites
 
@@ -52,7 +52,7 @@ Characteristics:
 As you have seen, this RAT uses a third party API. The source code for this API can be found in ./RATata/API.
 You must host this API on a free host site like 'heroku.com' or '000webhost.com'.
 ```
-<img alt="API" src="https://github.com/loTus04/RATata/blob/main/img/api.PNG" width="536" height="180" />
+<img alt="API" src="https://media.discordapp.net/attachments/919204721024204820/919234672704258068/api.png" width="536" height="180" />
 
  ## SETUP RAT
 
@@ -66,7 +66,7 @@ You must host this API on a free host site like 'heroku.com' or '000webhost.com'
 ```
 
 ## USAGE
-<img src="https://github.com/loTus04/RATata/blob/main/img/rat_help.PNG" width="652" height="484"/>
+<img src="![image](https://user-images.githubusercontent.com/68511325/145680288-93691c7c-99b9-43aa-987f-6bd53112f96c.png)" width="652" height="484"/>
  
 ## INJECT
 
@@ -78,7 +78,7 @@ You can add your own scripts:
 3. Encrypt the script in base64
 4. Put it in ./RAT/json/virus.json
 ```
-<img src="https://github.com/loTus04/RATata/blob/main/img/rat_inject.PNG" width="443" height="256"/>
+<img src="![image](https://user-images.githubusercontent.com/68511325/145680313-6e3fa7a4-5a6e-4cbc-9434-b0a51aac30a1.png)" width="443" height="256"/>
 
 ## Author
 
